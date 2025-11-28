@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img">
+  <title>Gundam Head Icon (placeholder)</title>
+  <rect width="100%" height="100%" fill="#fff" />
+  <g fill="#111">
+    <path d="M256 40c40 0 80 32 96 64 12 20 34 28 34 28s-2 2-6 6c-18 18-66 16-90 12-36-6-76-6-112 0-24 4-72 6-90-12-4-4-6-6-6-6s22-8 34-28c16-32 56-64 96-64z"/>
+    <path d="M160 176c24 46 120 40 192 40s168 6 192-40c-28 96-180 128-192 128s-164-32-192-128z"/>
+    <circle cx="200" cy="240" r="8" fill="#fff"/>
+    <circle cx="312" cy="240" r="8" fill="#fff"/>
+  </g>
+</svg>
