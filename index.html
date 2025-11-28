@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="高达（Gundam）简介：作品历史、代表作、机体与角色介绍。" />
+  <title>高达（Gundam）介绍</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/images/favicon.png" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="#home">
+        <img src="assets/images/topicon-user.png" alt="页面图标" onerror="this.onerror=null;this.src='assets/images/start.jpg'" />
+        高达介绍
+      </a>
+      <nav class="nav" id="main-nav">
+        <a href="#overview">概述</a>
+        <a href="series.html">代表作</a>
+        <a href="mecha.html">机体</a>
+        <a href="characters.html">角色</a>
+        <a href="video.html">推荐视频</a>
+      </nav>
+      <div class="header-controls">
+        <button id="themeToggle" class="theme-toggle" aria-label="切换主题">🌙</button>
+        <button id="menuToggle" class="menu-toggle" aria-label="菜单">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-splash">
+      <div class="splash splash--1"></div>
+      <div class="splash splash--2"></div>
+    </div>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <h1>欢迎来到高达（Gundam）世界</h1>
+        <p>从《机动战士高达》到如今的多部系列，高达已经成为机甲动画的经典代表。</p>
+        <a class="btn" href="#overview">开始了解</a>
+      </div>
+    </section>
+
+    <section class="container section">
+      <h2>目录</h2>
+      <div class="directory-grid">
+        <div class="directory-card">
+          <h3>代表作（部分）</h3>
+          <p>精选代表作品与其主题简介，方便从不同角度入门。</p>
+          <a class="btn" href="series.html">浏览代表作</a>
+        </div>
+        <div class="directory-card">
+          <h3>著名机体（部分）</h3>
+          <p>重点介绍代表性机体并解释其设计特色与战术用途。</p>
+          <a class="btn" href="mecha.html">查看机体</a>
+        </div>
+        <div class="directory-card">
+          <h3>主要角色（部分）</h3>
+          <p>介绍关键角色、动机与他们在剧情中的作用。</p>
+          <a class="btn" href="characters.html">查看角色</a>
+        </div>
+        <div class="directory-card">
+          <h3>推荐视频</h3>
+          <p>在线观看官方片段、影评与精彩剪辑。</p>
+          <a class="btn" href="video.html">观看视频</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="overview" class="container section">
+      <h2>概述</h2>
+      <p>
+        高达（Gundam）是由日本动画公司 Sunrise（现 Bandai Namco）制作的机甲动画系列，始于 1979 年播出的《机动战士高达》。
+        该系列开创了"真实系"机甲设定，强调战场现实感、政治与人性冲突。作品影响深远，延伸到模型（Gunpla）、小说、游戏等多种媒介。
+      </p>
+    </section>
+
+  </main>
+
+  <script defer src="script.js"></script>
+</body>
+</html>

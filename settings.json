@@ -1,0 +1,16 @@
+{
+  // Live Server 设置：默认端口 5500，自动在浏览器打开并使用本地回环地址
+  "liveServer.settings.port": 5500,
+  "liveServer.settings.root": "/",
+  "liveServer.settings.NoBrowser": false,
+  "liveServer.settings.useLocalIp": false,
+  "liveServer.settings.host": "127.0.0.1",
+  // 忽略某些临时文件
+  "liveServer.settings.ignoreFiles": [
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.log"
+  ],
+  // 可选：如果你想要 Live Server 总是使用特定浏览器，请取消注释并改为你的浏览器可执行路径
+  // "liveServer.settings.AdvanceCustomBrowserCmdLine": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+}
